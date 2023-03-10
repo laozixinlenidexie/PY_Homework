@@ -16,8 +16,11 @@ for z in yuan:
     i+=1
 for z in miyao:
     miyaozhu.append(z)
-    a+=1   
-print(str(miyaozhu),","+str(yuanzhu))
+    a+=1
+
+# this is dele the code
+# print(str(miyaozhu),","+str(yuanzhu))
+# hello world
 i=0
 for i in range(len(yuanzhu)):
     a=i%len(miyaozhu)
