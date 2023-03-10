@@ -19,8 +19,11 @@ for z in miyao:
     a+=1   
 print(str(miyaozhu),","+str(yuanzhu))
 i=0
+miwenString = ""
 for i in range(len(yuanzhu)):
     a=i%len(miyaozhu)
     #公式
     miwen=(ord(yuanzhu[i])+ord(miyaozhu[a]))%26+65
-    print("密文："+chr(miwen))
+    miwenString += chr(miwen)
+
+print("密文："+miwenString)
